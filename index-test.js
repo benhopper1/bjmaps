@@ -5,6 +5,18 @@ app.listen(8085, function(){
 });
 
 
+
+app.get('/test', function(req, res){
+  res.send('test was called 123');
+});
+
+
+
+
+
+
+
+
 app.get('/', function(req, res){
 
 
